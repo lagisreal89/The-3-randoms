@@ -8,7 +8,7 @@ from config import *
 class Game:
     def __innit__(self):
         pygame.init()
-        self.screen = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT)
+        self.screen = pygame.display.set_mode(WIN_WIDTH, WIN_HEIGHT)
 
 # Set the width and height of the screen (width, height)
 SCREEN_SIZE = (800, 600)
